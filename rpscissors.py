@@ -39,7 +39,7 @@ def get_random():
 
 print "Let's play rock-paper-scissors!"
 
-user_play = raw_input("Type rock/paper/scissors: ")
+user_play = raw_input("Type rock/paper or scissors: ")
 computer_play = get_random()
 
 print "I chose %s!" % (computer_play,)
